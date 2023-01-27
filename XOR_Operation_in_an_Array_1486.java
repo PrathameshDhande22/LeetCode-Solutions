@@ -1,7 +1,5 @@
 package leetcode;
 
-import java.util.Arrays;
-
 class Solution1486 {
 	public int xorOperation(int n, int start) {
 		if (n == 1)
