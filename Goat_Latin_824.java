@@ -1,7 +1,5 @@
 package leetcode;
 
-import java.util.Arrays;
-
 class Solution824 {
 	public String toGoatLatin(String sentence) {
 		String[] senSplited = sentence.split("\s");
