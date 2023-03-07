@@ -1,7 +1,6 @@
 from git import repo
 import os
 from git import repo
-from git import remote
 Current_Dir = os.getcwd()
 reps = repo.Repo(path=Current_Dir)
 untrack = reps.untracked_files
