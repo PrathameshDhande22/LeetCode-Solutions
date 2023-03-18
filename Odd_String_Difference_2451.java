@@ -9,7 +9,6 @@ class Solution2451 {
 	public String oddString(String[] words) {
 		List<List<Integer>> storeing = new ArrayList<>();
 		Map<List<Integer>, Integer> mapper = new HashMap<>();
-		int j = 0;
 		for (String s : words) {
 			List<Integer> store = new ArrayList<>();
 			for (int i = 0; i < s.length() - 1; i++) {
