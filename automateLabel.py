@@ -6,3 +6,4 @@ filename.remove(fileno)
 filename.append(fileno)
 
 clipboard.copy('_'.join(filename))
+print("Copied to Clipboard")
